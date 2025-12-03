@@ -1,4 +1,4 @@
-<img width="1080" height="2400" alt="Screenshot_1764725308" src="https://github.com/user-attachments/assets/593d719b-293f-437a-88ee-ea0b2020920d" />Dokumentasi Aplikasi TokoKita (Frontend Flutter)
+Dokumentasi Aplikasi TokoKita (Frontend Flutter)
 
 Aplikasi ini adalah client-side (frontend) yang dibangun menggunakan Flutter untuk sistem manajemen Toko. Aplikasi ini dirancang untuk melakukan operasi CRUD (Create, Read, Update, Delete) pada data produk, serta memiliki fitur autentikasi (Registrasi & Login) yang terintegrasi dengan REST API CodeIgniter 4.
 
