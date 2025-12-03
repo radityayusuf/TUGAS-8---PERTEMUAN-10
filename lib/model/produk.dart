@@ -8,10 +8,15 @@ class Produk {
 
   factory Produk.fromJson(Map<String, dynamic> obj) {
     return Produk(
-      id: obj['id'],
+      // Konversi paksa ke String agar aman
+      id: obj['id'].toString(),
+
       kodeProduk: obj['kode_produk'],
       namaProduk: obj['nama_produk'],
-      hargaProduk: obj['harga'],
+
+      // Konversi paksa ke String dulu, baru diubah ke Integer
+      // Ini mengatasi masalah jika API mengirim angka sebagai teks
+      hargaProduk: int.tryParse(obj['harga'].toString()) ?? 0,
     );
   }
 }
